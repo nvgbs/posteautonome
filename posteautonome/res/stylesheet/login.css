@@ -1,0 +1,63 @@
+/* mettre en forme tout le body*/
+body 
+{
+    /* definition de la couleur*/
+    background: #252525;
+    /*de la police*/
+    font-family: 'arial';
+    /* la taille de la police*/
+    font-weight: 300;
+}
+/* mise en forme de mes class main*/
+.main 
+{
+    /* couleur de font (blanc) appelle d'une image que je 
+    positione a en haut a droite*/
+    background: white url(../image/sncflogo.jpg) right top no-repeat;
+    /* image qui sétale le plus possible dans le conteneur*/
+    background-size: contain;
+    /*marge interieur*/
+    padding: 80px 20px 20px;
+    /*marge exterieur*/
+    margin-top: 120px;
+}
+/*media query defini la feuille de style en fonction de la reso de lecran*/
+@media only screen and (max-width : 992px) 
+{    
+    .main 
+    {
+        background: white;
+        margin-top: 30px;
+    }
+}
+
+h1 {
+    font-family: 'arial', sans-serif;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 0;
+}
+h2 {
+    font-family: 'arial', sans-serif;
+    font-weight: 300;
+    color: #999;
+    font-size: 18px;
+    margin-top: 5px;
+}
+form {
+    margin-top: 60px;
+}
+input.form-control , input[type="submit"] , .btn {
+    border-radius: 0px;
+}
+.btn {
+    transition: all ease-in-out 0.2s;
+}
+.credits {
+    margin-top: 100px;
+    color: #999;
+    font-size: 12px;
+}
+.credits a {
+    color: inherit;
+}

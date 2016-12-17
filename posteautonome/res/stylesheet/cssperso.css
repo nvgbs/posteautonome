@@ -1,0 +1,64 @@
+
+.msg_useradd
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 130%;
+
+}
+.msg_addcsv
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 130%;	
+	
+}
+.msg_viewdata
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 130%;	
+	
+}
+.btn_align
+{
+	text-align: center;
+}
+.navbar-inversedesactive
+{
+/* Couleur de fond de la barre de navigation */
+	background-color: rgb(60,55,50);
+	border-color: rgb(60,55,50);
+}
+.titleimport
+{
+	font-family: arial;
+	font-size: 200%;
+	font-weight: bold;
+	text-align:center;
+}
+.body
+{
+	font-family: arial;
+}
+
+.navbar navbar-default
+{
+	background-color: rgb(77,79,83);
+}
+#curve_chart
+{
+	margin: 0 auto;
+}
+#curve_chart1
+{
+	margin: 0 auto;
+}
+#curve_chart2
+{
+	margin: 0 auto;
+}
+#curve_chart3
+{
+	margin: 0 auto;
+}
